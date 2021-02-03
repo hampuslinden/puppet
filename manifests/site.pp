@@ -1,4 +1,6 @@
 ## site.pp ##
+#
+# More comments
 
 # This file (./manifests/site.pp) is the main entry point
 # used when an agent connects to a master and asks for an updated configuration.
