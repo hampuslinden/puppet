@@ -7,6 +7,6 @@
 class role::vanilla {
   include profile::myntp
   include profile::mymotd
-  include puppethomelab
+  include profile::mypuppethomelab
   include profile::myapache
 }
