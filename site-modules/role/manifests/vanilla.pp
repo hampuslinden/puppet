@@ -6,4 +6,5 @@
 #   include role::vanilla
 class role::vanilla {
   include profile::myntp
+  include profile::mymotd
 }
