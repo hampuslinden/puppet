@@ -10,3 +10,9 @@ hierarchy:
     paths:
       - "nodes/%{trusted.certname}.yaml"
       - "common.yaml"
+  - name: "OS defaults"
+    data_hash: yaml_data
+    path: "os/%{facts.os.family}.yaml"
+  - name: "DC defaults"
+    data_hash: yaml_data
+    path: "dc/%{facts.datacenter}.yahml"
