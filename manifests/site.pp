@@ -32,6 +32,6 @@ node default {
   #   class { 'my_class': }
 }
 
-node pup1.trustsno1.com {
+node 'pup1.trustsno1.com','pup2.trustsno1.com' {
   include role::vanilla
 }
