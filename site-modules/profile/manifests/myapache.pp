@@ -7,7 +7,7 @@
 class profile::myapache {
   include apache
   apache::vhost { 'test-vhost':
-    servername => $fact['fqdn'],
+    servername => 'pup1.trustsno1.com',
     port       => '80',
     docroot    => '/var/www/html',
   }
