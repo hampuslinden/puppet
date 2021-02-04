@@ -22,4 +22,6 @@ mod 'puppetlabs/concat',  '6.0.0'
 mod 'puppetlabs-motd', '4.3.0'
 mod 'puppetlabs-apache', '5.9.0'
 mod 'puppetlabs-ntp', '8.5.0'
+mod 'puppet-chrony', '1.0.0'
+
 

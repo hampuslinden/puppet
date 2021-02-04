@@ -5,5 +5,9 @@
 # @example
 #   include profile::myntp
 class profile::myntp {
-  include ntp
+  if $facts['os']['release']['major'] == 8 {
+    include chrony
+  } else {
+    include ntp
+  }
 }
