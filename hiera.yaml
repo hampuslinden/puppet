@@ -15,4 +15,4 @@ hierarchy:
     path: "os/%{facts.os.family}.yaml"
   - name: "DC defaults"
     data_hash: yaml_data
-    path: "dc/%{facts.datacenter}.yahml"
+    path: "dc/%{facts.datacenter}.yaml"
