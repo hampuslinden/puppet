@@ -31,3 +31,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node pup1.trustsno1.com {
+  include role::vanilla
+}

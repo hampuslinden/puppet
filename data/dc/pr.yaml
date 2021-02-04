@@ -1,6 +1,6 @@
 ---
 prdc: true
-ntp:autoupdate: false
+ntp::autoupdate: false
 ntp::ntpservers: 
   - time1.google.com iburst
   - time2.google.com iburst
