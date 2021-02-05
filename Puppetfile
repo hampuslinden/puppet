@@ -25,7 +25,12 @@ mod 'puppetlabs-ntp', '8.5.0'
 mod 'puppet-chrony', '1.0.0'
 mod 'puppetlabs-mysql', '10.9.1'
 mod 'puppet-nginx', '3.0.0'
+mod 'ghoneycutt-ssh', '3.62.0'
 
+
+#
+# My modules
+# 
 
 mod 'puppethomelab', 
   :git => 'git@github.com:hampuslinden/puppethomelab.git',
