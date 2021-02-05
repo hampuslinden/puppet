@@ -5,7 +5,7 @@ defaults:
   datadir: "data"
 
 hierarchy:
-  - name: "Yaml backend"
+  - name: "Default Yaml backend"
     data_hash: yaml_data
     paths:
       - "nodes/%{trusted.certname}.yaml"

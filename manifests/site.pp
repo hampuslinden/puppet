@@ -35,3 +35,7 @@ node default {
 node 'pup1.trustsno1.com','pup2.trustsno1.com' {
   include role::vanilla
 }
+
+node 'pup3.trustsno1.com' {
+  include role::vanilla
+}
