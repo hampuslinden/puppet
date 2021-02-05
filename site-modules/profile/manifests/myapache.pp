@@ -23,7 +23,7 @@ class profile::myapache {
   }
 
   file { '/var/www/mypage/index.html':
-    ensure  => 'directory',
+    ensure  => 'file',
     mode    => '0644',
     owner   => 0,
     group   => 0,
