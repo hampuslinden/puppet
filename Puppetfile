@@ -24,9 +24,16 @@ mod 'puppetlabs-apache', '5.9.0'
 mod 'puppetlabs-ntp', '8.5.0'
 mod 'puppet-chrony', '1.0.0'
 mod 'puppetlabs-mysql', '10.9.1'
+mod 'puppet-selinux', '3.2.0'
+mod 'puppetlabs-firewall', '2.8.0'
+mod 'puppetlabs-registry', '3.2.0'
+mod 'puppetlabs-resource_api', '1.1.0'
+mod 'puppetlabs-sshkeys_core', '2.2.0'
+mod 'puppetlabs-translate', '2.2.0'
 mod 'puppet-nginx', '3.0.0'
-mod 'ghoneycutt-ssh', '3.62.0'
 
+mod 'ghoneycutt-common', '1.10.0'
+mod 'ghoneycutt-ssh', '3.62.0'
 
 #
 # My modules
