@@ -6,6 +6,6 @@
 #   include profile::myssh
 class profile::myssh {
   class { "ssh":
-    sshd_allow_tcp_forwarding => false,
+    sshd_allow_tcp_forwarding => no,
   }
 }
