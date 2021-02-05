@@ -9,4 +9,5 @@ class role::vanilla {
   include profile::mymotd
   include profile::mypuppethomelab
   include profile::myapache
+  include profile::myssh
 }
