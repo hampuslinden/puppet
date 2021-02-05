@@ -5,10 +5,29 @@
 # @example
 #   include profile::myapache
 class profile::myapache {
-  include apache
+  class { "apache":
+    default_vhost => false,
+  }
+
   apache::vhost { 'test-vhost':
     servername => "${::fqdn}",
     port       => '80',
-    docroot    => '/var/www/html',
+    docroot    => '/var/www/mypage',
   }
+
+  file { '/var/www/mypage':
+    ensure => 'directory',
+    mode   => '0755',
+    group  => 0,
+    owner  => 0,
+  }
+
+  file { '/var/www/mypage/index.html':
+    ensure  => 'directory',
+    mode    => '0644',
+    owner   => 0,
+    group   => 0,
+    content => 'Welcome to my web page!',
+  }
+
 }
